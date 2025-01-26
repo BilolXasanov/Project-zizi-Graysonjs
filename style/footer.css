@@ -1,0 +1,84 @@
+@import url(fonts.css);
+
+
+.footer {
+    background: black;
+    padding: 36px 36px;
+}
+
+.footer-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-group__title {
+    margin-bottom: 40px;
+}
+
+.footer-group__title {
+    color: rgb(255, 255, 255);
+    font-family: 'DP';
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+.footer-group__link {
+    color: rgb(255, 255, 255);
+    font-family: 'RR';
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-link__icon {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+
+
+.footer-form__label {
+    display: flex;
+
+}
+
+.footer-group__email {
+    padding-top: 14px;
+    padding-left: 10px;
+    padding-bottom: 14px;
+    max-width: 200px;
+    width: 100%;
+}
+
+.footer-group__span {
+    color: white;
+    background: rgb(65, 162, 142);
+    padding-top: 12px;
+    padding-right: 9px;
+    padding-left: 10px;
+    padding-bottom: 13px;
+}
+
+.footer-group__text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'RR';
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 260px;
+    width: 100%;
+}
+
+.footer-icon {
+    color: white;
+    font-size: 33px;
+    margin-left: 25px;
+}
+
+.footer-icon:nth-of-type(1) {
+    margin-left: 0;
+}
