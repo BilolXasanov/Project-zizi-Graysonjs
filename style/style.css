@@ -24,16 +24,19 @@
 }
 
 .nav {
-    height: 81px;
+   
     display: flex;
     align-items: center;
+    padding: 30px;
     background: rgb(0, 0, 255, 0.2);
 }
 
 .nav-box {
-    display: flex;
     justify-content: space-between;
+    display: flex;
     align-items: center;
+
+    column-gap: 30px;
 }
 
 .nav-list {
@@ -54,6 +57,8 @@
 
 .nav-search {
     display: flex;
+    flex-direction: column;
+
 }
 
 .nav-search__input {

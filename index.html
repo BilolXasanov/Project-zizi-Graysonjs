@@ -17,38 +17,48 @@
 <body>
     <header class="header">
         <nav class="nav">
-            <div class="nav-box container">
-                <a href="#!" class="nav-logo">
-                    <img src="image/Logo_black.svg" alt="svg">
-                </a>
-
-                <a href="#" class="menu-btn">
-                    <span></span>
-                </a>
-
-                <ul class="nav-list">
-                    <li class="nav-li"><a href="#!" class="nav-link">HOME</a></li>
-                    <li class="nav-li"><a href="#!" class="nav-link">PAGES</a></li>
-                    <li class="nav-li">
-                        <select name="" id="">
-                            <option href="#!" class="nav-link">PORTFOLIO</option>
-                            <option href="#!" class="nav-link">SHOP</option>
-                            <option href="#!" class="nav-link">FASHION </option>
-                            <option href="#!" class="nav-link">GALLERY </option>
-                        </select>
-                    </li>
-
-
-                    <li class="nav-li"><a href="#!" class="nav-link">BLOG</a></li>
-                    <li class="nav-li"><a href="#!" class="nav-link">ABOUT</a></li>
-                    <li class="nav-li"><a href="#!" class="nav-link">SHORTCODES</a></li>
-                </ul>
+            <div class="nav-box">
                 <form action="" class="nav-search">
-                    <input type="text" class="nav-search__input" placeholder="search">
-                    <a href="#!" class="nav-search__lupa">
-                        <img src="image/Frame 2.svg " alt="" class="nav-search__image">
-                    </a>
+                    <section>
+                        <h2>qaysi sohaga qiziqasiz ?</h2>
+                        <input type="radio" name="IT"/> IT <br />
+                        <input type="radio" name="Fudbol"/> Fudbol <br />
+                        <input type="radio" name="Tarjimon"/> Tarjimon <br />
+                    </section>
                 </form>
+                <form action="" class="nav-search">
+                    <section>
+                        <h2>qaysi hayvon yoqadi ?</h2>
+                        <input type="checkbox" name="hayvon"/> kuchuk <br />
+                        <input type="checkbox" name="hayvon"/> mushuk <br />
+                        <input type="checkbox" name="hayvon"/> totiqush <br />
+                    </section>
+                </form>
+
+                <form action="" class="nav-search">
+                    <h2>ismingiz <input type="text" name="givenName"></h2>
+                    <h2>qaysi mamlakat yoqadi ?</h2>
+                    <select size="3" multiple name="country" >
+                        <option value="cna">canada</option>
+                        <option value="jp">yaponiya</option>
+                        <option value="uz">o'zbekiston</option>
+                        <option value="kz">Qozog'iston</option>
+                    </select>
+                    <button>Jonatish</button>
+                </form>
+                <form action="" class="nav-search">
+                    
+                    <h2>ozingiz haqida ma'lumot yozing!<input type="text" name="givenName"></h2>
+                    <h2>nimalarga qiziqasiz?</h2>
+                    <select size="3" multiple name="country" >
+                        <option value="sport">Boks</option>
+                        <option value="fan">IT</option>
+                        <option value="hayvon">Toshbaqa</option>
+                        <option value="mamlakat">Canada</option>
+                    </select>
+                    <button>Jonatish</button>
+                </form>
+
             </div>
 
         </nav>
